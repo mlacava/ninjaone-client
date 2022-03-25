@@ -1,0 +1,56 @@
+body{
+    padding: 15px;
+}
+
+/*Device*/
+.header{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.header h3{
+    float: left;
+}
+
+.header .add-new{
+    float: right;
+}
+
+.filters{
+    margin-bottom: 10px;
+}
+
+/*Device Items*/
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.list-group-item{
+    position: relative;
+}
+.list-group-item .device .name{
+    font-weight: 600;
+}
+
+.list-group-item .device .type{
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+.list-group-item .device .image img{
+    margin-right: 5px;
+}
+.list-group-item .options{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.list-group-item .options button{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/*Device Details*/
+.btn-back{
+    margin-left: 5px;
+}
